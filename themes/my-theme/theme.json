@@ -13,20 +13,20 @@
     },
     "typography": {
     "fontSizes": [
-        { "name": "Small", "slug": "small", "size": "15px" },
-        { "name": "Large", "slug": "large", "size": "25px" }
+        { "name": "Small", "slug": "small", "size": "14px" },
+        { "name": "Large", "slug": "large", "size": "24px" }
     ]
     },
     "styles": {
-        "typography": {
+    "typography": {
         "fontSize": "17px",
-        "fontWeight": "500",
+        "fontWeight": "400",
         "lineHeight": "1.5"
     },
     "elements": {
         "paragraph": {
         "typography": {
-            "fontSize": "17px",
+            "fontSize": "16px",
             "lineHeight": "1.7"
         }
         },
@@ -38,6 +38,5 @@
         }
     }
     }
-
-}
-}
+    }
+  }
