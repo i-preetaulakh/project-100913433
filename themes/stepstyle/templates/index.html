@@ -1,0 +1,24 @@
+<!-- wp:template-part {"slug":"header"} /-->
+
+<main class="wp-block-group alignwide">
+    <div class="wp-block-group">
+        <h1>Welcome to StepStyle</h1>
+        <p>Your favorite online store for stylish and comfortable shoes.</p>
+
+        <!-- Featured Products -->
+        <!-- wp:woocommerce/products {"columns":4,"rows":1,"visibility":"featured"} /-->
+
+        <!-- Blog Posts -->
+        <section class="wp-block-group">
+            <h2>Latest Blog Posts</h2>
+            <!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"postType":"post","order":"desc","orderBy":"date"}} -->
+            <div class="wp-block-post-template">
+                <!-- wp:post-title {"isLink":true} /-->
+                <!-- wp:post-excerpt /-->
+            </div>
+            <!-- /wp:query -->
+        </section>
+    </div>
+</main>
+
+<!-- wp:template-part {"slug":"footer"} /-->
