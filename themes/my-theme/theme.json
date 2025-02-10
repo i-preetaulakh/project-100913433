@@ -16,6 +16,28 @@
         { "name": "Small", "slug": "small", "size": "15px" },
         { "name": "Large", "slug": "large", "size": "25px" }
     ]
+    },
+    "styles": {
+        "typography": {
+        "fontSize": "17px",
+        "fontWeight": "500",
+        "lineHeight": "1.5"
+    },
+    "elements": {
+        "paragraph": {
+        "typography": {
+            "fontSize": "17px",
+            "lineHeight": "1.7"
+        }
+        },
+        "heading": {
+        "typography": {
+            "fontSize": "34px",
+            "fontWeight": "800"
+        }
+        }
     }
+    }
+
 }
 }
